@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.3em;
+}
+
+body {
+  background-color: lightblue;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 0 20px;
+}
+
+header {
+  background-color: pink;
+  height: 10vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 2.5vh 0 2.5vh 0;
+  border-radius: 10px;
+}
+
+main {
+  background-color: lightgreen;
+  height: 75vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 0 0 2.5vh 0;
+  border-radius: 10px;
+}
+
+#description {
+  padding: 10px;
+}
+
+form {
+  background-color: white;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 10px;
+  border-radius: 10px;
+}
+
+label {
+  padding: 10px 0 10px 0;
+}
+
+.radio-checkbox-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+textarea {
+  margin: 10px 0 10px 0;
+}
+
+footer {
+  background-color: lightyellow;
+  height: 5vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 0 2.5vh 0;
+  border-radius: 10px;
+}
+
+.placeholder {
+  border: 1px solid black;
+  padding: 10px;
+}
